@@ -17,15 +17,12 @@ public class Tugas2 {
     public static void main(String[] args) {
         int bil = 1;
         System.out.println("            Do_While            ");
-        System.out.println(" Bilangan kelipatan 2 (1 - 100) ");
+        System.out.println(" Bilangan Perkalian 2 (1 - 100) ");
         System.out.println("================================");
-        do
-           {
-            bil*=2;
-        if (bil <= 100){
-        System.out.print(bil + " ");
-        continue;
-        }
-        }while (bil <= 100);
-    }
+        do{
+            bil = bil * 2;
+            System.out.print(bil + " ");
+            if (bil == 64)break;     
+        }while(true);        
+            }
 }
